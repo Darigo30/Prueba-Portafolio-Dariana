@@ -32,7 +32,7 @@ h2{
 .navbar-dark .navbar-nav .nav-link{
     color: var(--blanco);
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(249, 181, 48);
@@ -40,7 +40,7 @@ h2{
 .tit-header{
     font-size: 4.5em;
     color: var(--color-darkdos);
-    padding-bottom: 15px;
+    padding-bottom: 0.25em;
 }
 .bg-hero{
     background: url("../img/bg-hero.jpg");
@@ -54,33 +54,28 @@ h2{
 /*Contenido o Body*/
 .txt-late{
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.95rem;
 }
 .hola{
     color: var(--amarillo);
-    letter-spacing: 3px;
-    font-size: 12px;
+    letter-spacing: 0.188em;
+    font-size: 0.75rem;
 }
 .hola.bajada{
     color: var(--color-oscuro);
-    line-height: 25px;
+    line-height: 1.563em;
     text-transform: uppercase;
 }
 .carousel-indicators {
-    top: 100px;
+    top: 6.25em;
 }
 .carousel-indicators li {
     background-color: var(--amarillodos);
-}
-.img-mis-tr{
-    border-radius: 10px;
-    width: 100%;
 }
 .linda{
     width: 100%;
 }
 .anio {
-    font-size: 16px;
     background: rgba(19, 19, 19, 0.18);
     padding: 5px 15px;
     display: inline-block;
@@ -96,9 +91,9 @@ h2{
     background-color: var(--blanco);
     box-shadow: 0px 10px 30px 0px rgba(43, 43, 43, 0.2);
     text-align: center;
-    padding: 15px 5px 25px;
-    border-radius: 15px;
-    font-size: 12px;
+    padding: 0.938em 0.313em 1.563em;
+    border-radius: 0.938em;
+    font-size: 0.75rem;
 }
 .icono{
     background-color: var(--color-oscuro);
@@ -113,10 +108,10 @@ h2{
     color: var(--amarillo);
 }
 .modal-header {
-    border-bottom: 1px solid #F9B530;
+    border-bottom: 0.063em solid #F9B530;
 }
 .modal-footer {
-    border-top: 1px solid #F9B530;
+    border-top: 0.063em solid #F9B530;
 }
 /*Footer*/
 footer{
@@ -129,7 +124,7 @@ footer{
     margin: 0 auto;
     display: block;
     width: 100%;
-    max-width: 264px;
+    max-width: 16.5em;
 }
 
 /*Medias Querys*/
