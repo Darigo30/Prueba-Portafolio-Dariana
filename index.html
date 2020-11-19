@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel= "shortcut icon "type="image/png" href="assets/img/favicon.png">
+        <title>Portafolio Dariana Gómez</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS de Bootstrap 4.2.1-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <!--Style-->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+<body>
+    <!--Navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand"><img src="assets/img/logo-dariana.png"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-center text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobremi">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mistrabajos">Mis Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactame">Contáctame</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header id="inicio" class="bg-hero">
+        <div class="container my-5">
+            <div class="row">
+              <div class="col-12">
+                <h5 class="hola text-uppercase">¡Hola! mi nombre es Dariana Gómez</h5>
+                <h1 class="tit-header">Soy UX / UI</h1>
+                <p>¡Actualmente estoy en <a class="df-l" href="https://desafiolatam.com/" target="_blank"> Desafio Latam</a> para ser Front-End Developer!</p>
+                <a class="btn btn-warning rounded-pill my-2y"  href="#hobbies" role="button" aria-expanded="false">Hobbies e Intereses</a>
+                <a class="btn btn-dark rounded-pill my-2"  href="assets/img/CV-DarianaG-Desafio.pdf" target="_blank" role="button">Descarga mi CV</a>
+              </div>
+            </div>
+        </div>
+    </header>
+    <!--Sobre mi-->
+    <section id="sobremi" class="text-center py-5 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="assets/img/linda.png" class="linda">
+              </div>
+                <div class="col-sm-6">
+                    <h2 class="text-left">Sobre Mi</h2>
+                    <p class="py-3 text-justify txt-late">En esta etapa de mi vida he comprendido dos cosas importantes, la primera es que para triunfar,
+                    debo superarme cada día y la segunda es que para avanzar debo dar mi mejor esfuerzo en lo que hago,
+                    ya que forma parte de quien soy realmente. </p>
+                    <div class="row">
+                      <div class="col-sm-6">
+                          <p class="text-left">Con años de experiencia, he sido capaz de adaptarme a las diferentes necesidades de las empresas para las cuales he trabajado.
+                          Adicionalmente, cuento con una gran capacidad de análisis de la información y trabajo en equipo.</p>
+                      </div>
+                      <div class="col-sm-6">
+                          <p class="text-left">Además de ello, a pesar que soy ingeniero de sistemas como profesión, me apasiona el diseño y en mis tiempos libres me gusta estudiar, leer, practicar karate,
+                              salir en mis patines y divertirme!!!
+                          </p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Mis trabajos-->
+    <section id="mistrabajos" class="text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mt-5">Mis Trabajos</h2>
+                    <h5 class="hola bajada pb-3">Estos son algunos pequeños trabajos que he realizado de UX y HTML</h5>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <div class="card">
+                      <img src="assets/img/hapy.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Happyland</h5>
+                        <p>Portal web</p>
+                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-happy">Ver más</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <div class="card">
+                      <img src="assets/img/hyundai.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Hyundai Camiones y Buses</h5>
+                        <p>UI / UX</p>
+                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-hyundai">Ver más</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <div class="card">
+                      <img src="assets/img/ams.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5>AMS</h5>
+                        <p>UX / Portal web</p>
+                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-ams">Ver más</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-5">
+                  <div class="card">
+                    <img src="assets/img/iguana.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5>Iguana</h5>
+                      <p>Front-End Sitio Web</p>
+                      <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-iguana">Ver más</button>
+                    </div>
+                  </div>
+              </div>
+                <div class="col-sm-4 mb-5">
+                    <div class="card">
+                      <img src="assets/img/mlb.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Municipalidad Lo Barnechea</h5>
+                        <p>UX / UI</p>
+                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-mlb">Ver más</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <div class="card">
+                      <img src="assets/img/ricomida.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Ricomida</h5>
+                        <p>Front-End Sitio Web</p>
+                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-ricomida">Ver más</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <div class="card">
+                      <img src="assets/img/meet.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Meet & Coffee</h5>
+                        <p>Front-End Sitio Web</p>
+                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-meet">Ver más</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-5">
+                    <div class="card">
+                      <img src="assets/img/suricata.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5>Suricata</h5>
+                        <p>Front-End Sitio Web</p>
+                        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-suricata">Ver más</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-5">
+                  <div class="card">
+                    <img src="assets/img/hotelnacional.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5>Hotel Nacional Panamá</h5>
+                      <p>UI/HTML</p>
+                      <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal-hotel">Ver más</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Inician Modales-->
+
+    <!--Modal Happyland-->
+    <div class="modal fade" id="modal-happy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Portal Web Happyland Tokens</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Armado o maquetado de sistema interno para Happyland, el cual permite subir archivos mediante tokens y procesarlos.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Hyundai-->
+    <div class="modal fade" id="modal-hyundai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Hyundai Camiones y Buses</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Para este sitio, se realizó una propuesta de acuerdo a pedida del cliente, en el cual,
+              debia basarse en el diseño de Hyunday Global, con imágenes al ancho de pantalla, destacar el color de la marca
+              y dar enfásis a los modelos o tipos de camiones de manera más didáctica.
+            Esto es debido, al tipo de target que posee la marca, integrando además un filtro de búsqueda por
+            concesionario a nivel nacional. No obstante de cotizadores en línea, para poder generar solicitudes de
+            manera más rápidas y eficientes.</p>
+            <a href="http://www.hyundaicamionesybuses.cl/" target="_blank" class="df-l">Ir a sitio web</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal AMS-->
+    <div class="modal fade" id="modal-ams" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">AMS</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Diseño interno para sitio de AMS, que muestra los beneficios de la mensajeria masiva.
+              Se toma en consideración, el uso de floatings en el sitio, como una rápida llamada a la acción para
+              poder cotizar este servicio. </p>
+              <a href="https://ams.asicom.cl/" target="_blank" class="df-l">Ir a sitio web</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Iguana-->
+    <div class="modal fade" id="modal-iguana" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Iguana</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Se demostró a través de desafios para ADL, el armado en HTML de Iguana Page, basándome en look and feel entregado por ellos.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal MLB-->
+    <div class="modal fade" id="modal-mlb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Municipalidad Lo Barnechea</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Se elaboraron wireframes y look and feel de la sección trámites en sitio productivo para la Municipalidad de Lo Barnechea. Colores y línea
+              gráfica entregada por cliente.
+            </p>
+            <a href="https://tramites.lobarnechea.cl/" target="_blank" class="df-l">Ir a sitio web</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Ricomida-->
+    <div class="modal fade" id="modal-ricomida" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ricomida</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>A través de un desadío semanal, se elaboró el sitio Ricomida, el cual debía contener javascript y estar elaborado en boostrap.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Meet-->
+    <div class="modal fade" id="modal-meet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Meet & Coffee</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>A través de un desadío semanal, se elaboró el sitio Meet & Coffee, el cual debía estar elaborado en HTML y Css respectivamente.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Suricata-->
+    <div class="modal fade" id="modal-suricata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Suricata</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>A través de un desadío semanal, se elaboró el sitio Suricata, el cual debía estar elaborado en HTML, Css y Boostrap.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Hotel-->
+    <div class="modal fade" id="modal-hotel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Hotel Nacional Panamá</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Se elaboró el diseño UI para el Gran Hotel Nacional David, ubicado en Chiriquí de la ciudad de Panamá, Panamá.
+            </p>
+            <a href="http://www.hotelnacionaldavid.com/" target="_blank" class="df-l">Ir a sitio web</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Experiencia Laboral-->
+    <section id="experiencia" class="text-center">
+      <div class="container">
+        <h2>Experiencia Laboral</h2>
+        <h5 class="hola bajada pb-3">Mi experiencia laboral inicia desde el año 2013, donde he trabajado desde agencias digitales, hasta empresas de retail.</h5>
+        <div class="row">
+          <div class="col-sm-6 text-left">
+            <img src="assets/img/experiencia-asicom.png">
+            <h5>AMS Asicom. Chile <span class="anio">2019 - Actualidad</span></h5>
+            <p class="labor">UX-UI</p>
+            <p>En mi trabajo en AMS, me he desempeñado en diversas áreas, inicialmente comencé con
+              trabajos como UI pero en la actualidad, me desempeño de igual manera en el área de maquetado,
+              armando sitios en HTML y PHP, para clientes importantes.
+            </p>
+          </div>
+          <div class="col-sm-6 text-left">
+            <img src="assets/img/experiencia-tecno.png">
+            <h5>Tecnoilumionación. Chile <span class="anio">2017 - 2018</span></h5>
+            <p class="labor">Analista E-Commerce</p>
+            <p>En Tecnoiluminación, realizaba labores como mantención del sitio web, propuestas a nivel visual para la página, email marketing y redes sociales.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 text-left">
+            <img src="assets/img/experiencia-latinol.png">
+            <h5>Latinol Studio. Panamá City <span class="anio">2016 - 2017</span></h5>
+            <p class="labor">Web graphic Designer</p>
+            <p>Latinol Studio, empresa la cual me impulsó a enfocarme en el área de diseño,
+              me permitió desempeñarme como web designer, creando sitios en WordPress, elaboración de estrategias digitales para email marketing, redes sociales y otros.
+            </p>
+          </div>
+          <div class="col-sm-6 text-left">
+            <img src="assets/img/experiencia-deplus.png">
+            <h5>Deplus global. Venezuela <span class="anio">2014 - 2015</span></h5> 
+            <p class="labor">Webmaster</p>
+            <p>En DEPLUS, realicé el desarrollo del Ecommerce de la empresa, y asimismo, realizaba la mantención del sitio. 
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 text-left">
+            <img src="assets/img/experiencia-fire.png">
+            <h5>Fire School de Venezuela.<span class="anio">2013</span></h5> 
+            <p class="labor">Tesista</p>
+            <p>En el tiempo de tesis se desarrolló un sistema que calculaba la cantidad de espuma y
+              agua necesaria para extinguir incendios en tanques de almacenamiento, por lo que el mismo fue un sistema innovador a nivel nacional. 
+            </p>
+          </div>
+          <div class="col-sm-6 text-left">
+            <img src="assets/img/experiencia-pdvsa.png">
+            <h5>PDVSA. Venezuela.<span class="anio">2013</span></h5> 
+            <p class="labor">Pasantías</p>
+            <p>Operaciones Acuáticas, departamento de Programación y Seguimiento (CELAP).
+              “Sistema de información para el control y disminución de tiempos no productivos causados por operaciones acuáticas de PDVSA”. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hobbies o intereses-->
+    <section id="hobbies" class="bg-destacar text-center">
+      <div class="container my-5 py-3">
+          <div class="row">
+            <div class="col-12">
+              <h2>Intereses</h2>
+              <h5 class="hola bajada pb-3">Algunos de mis hobbies y cosas que me gustan hacer en mis tiempos libres!</h5>
+            </div>
+            <div class="col-12 rounded pt-4 pb-5">
+              <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#blogCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fas fa-table-tennis fa-4x"></i>
+                        <p class="text-uppercase hola font-weight-bold py-2">Deportes</p>
+                     </div>
+                      <div class="col-4">
+                        <i class="fas fa-graduation-cap fa-4x"></i>
+                        <p class="text-uppercase hola font-weight-bold py-2">Estudiar</p>
+                      </div>
+                      <div class="col-4">
+                        <i class="fas fa-music fa-4x"></i>
+                        <p class="text-uppercase hola font-weight-bold py-2">Bailar</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <div class="row">
+                      <div class="col-4">
+                        <i class="fas fa-utensils fa-4x"></i>
+                        <p class="text-uppercase hola font-weight-bold py-2">Comer</p>
+                        </div>
+                      <div class="col-4">
+                        <i class="fas fa-book fa-4x"></i>
+                        <p class="text-uppercase hola font-weight-bold py-2">Leer</p>
+                      </div>
+                      <div class="col-4">
+                        <i class="fas fa-users fa-4x"></i>
+                        <p class="text-uppercase hola font-weight-bold py-2">Hacer amigos</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--habilidades-->
+    <section id="habilidades"class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h2>Habilidades</h2>
+            <p>Algunas de mis aptitudes que he adquirido a lo largo de mi experiencia profesional</p>
+            <h6 class="progress-label">HTML</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="90">90%</div>
+            </div>
+            <h6 class="progress-label">Css</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-dark" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+            <h6 class="progress-label">Bootstrap</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <h6 class="progress-label">JavaScript</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-dark" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+            <h6 class="progress-label">Adobe Xd</h6>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 my-5">
+            <div class="row mb-4">
+              <div class="col-sm-4">
+                <div class="cont-iconos">
+                  <div class="" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="UX Research">
+                    <i class="far fa-file-alt fa-2x py-2 my-2"></i>
+                  </div>
+                  <p class="pt-3">UX Research</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="cont-iconos">
+                  <div class=""  data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Wireframes">
+                    <i class="far fa-images fa-2x py-2 my-2"></i>
+                  </div>
+                  <p class="pt-3">Wireframes</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="cont-iconos">
+                  <div class="" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Look&Feel">
+                    <i class="fas fa-palette fa-2x py-2 my-2"></i>
+                  </div>
+                  <p class="pt-3">Look & Feel</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="cont-iconos">
+                  <div class="" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Desarrollo Web">
+                    <i class="far fa-file-code fa-2x  py-2 my-2"></i>
+                  </div>
+                  <p class="pt-3">Desarrollo Web</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="cont-iconos">
+                  <div class="" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Diseño Gráfico">
+                    <i class="fas fa-pen-nib fa-2x py-2 my-2"></i>
+                  </div>
+                  <p class="pt-3">Diseño Gráfico</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="cont-iconos">
+                  <div class=""  data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Email Marketing">
+                    <i class="far fa-envelope fa-2x py-2 my-2"></i>
+                  </div>
+                  <p class="pt-3">Email Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Alerta-->
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+              <strong>¡Hola de nuevo!</strong> Para contactarme, te dejo mi correo,
+              <a class="df-l" href="mailto:darigomez30@gmail.com">darigomez30@gmail.com</a> si no, rellena el form a continuación.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Contacto-->
+    <section id="contactame" class="bg-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/zOzmw9dj" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=zOzmw9dj&utm_source=typeform.com-01EQEJZ5JW4CDZ1DDG0XB09QXH-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="py-5 text-sm-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#inicio"><img src="assets/img/logo-footer.png" class="logo-footer"></a>
+          </div>
+          <div class="col-sm-4">
+            <h5 class="pb-3 hola">Email: darigomez30@gmail.com</h5>
+            <h5 class="pb-3 hola">Teléfono: +56 9 3223 0971</h5>
+            <h5 class="pb-3 hola">Dirección: Santiago de Chile</h5>
+          </div>
+          <div class="col-sm-4">
+            <a class="text-white pr-3" href="https://www.instagram.com/darigo30/" target="_blank"><i class="fab fa-instagram fa-2x pr-5 pr-sm-1"></i></a>
+            <a class="text-white pr-3" href="https://www.facebook.com/dariana.gomez30/" target="_blank"><i class="fab fa-facebook-f fa-2x pr-5 pr-sm-1"></i></a>
+            <a class="text-white pr-3" href="https://www.linkedin.com/in/dariana-g%C3%B3mez/" target="_blank"><i class="fab fa-linkedin-in fa-2x pr-5 pr-sm-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!--jQuery 3.3.1 sin slim-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!--Popper JS 1.14.3-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <!--Bootstrap JS 4.2.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!--Mi script-->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
