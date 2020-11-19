@@ -126,6 +126,11 @@ footer{
     width: 100%;
     max-width: 16.5em;
 }
+.border-footer{
+    border-top: 1px solid #A09F9F;
+    width: 80%;
+    margin: 1.25em auto;
+}
 
 /*Medias Querys*/
 
@@ -178,6 +183,9 @@ footer{
     }
     .hola {
         letter-spacing: 0px;
+    }
+    .border-footer{
+        width: 100%;
     }
 }
 @media (max-width: 420px){
